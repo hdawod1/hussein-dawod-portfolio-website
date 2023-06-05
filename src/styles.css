@@ -584,21 +584,6 @@ video {
   margin-bottom: 1.75rem;
 }
 
-.my-6{
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.mx-0{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .ml-1{
   margin-left: 0.25rem;
 }
@@ -619,8 +604,16 @@ video {
   margin-top: 0.25rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .mt-3{
   margin-top: 0.75rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .mt-5{
@@ -629,30 +622,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-11{
-  margin-top: 2.75rem;
-}
-
-.mt-16{
-  margin-top: 4rem;
-}
-
-.mt-6{
-  margin-top: 1.5rem;
-}
-
-.mt-4{
-  margin-top: 1rem;
-}
-
-.ml-0{
-  margin-left: 0px;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
 }
 
 .block{
@@ -756,10 +725,6 @@ video {
   flex-direction: column;
 }
 
-.items-end{
-  align-items: flex-end;
-}
-
 .items-center{
   align-items: center;
 }
@@ -774,10 +739,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.justify-around{
-  justify-content: space-around;
 }
 
 .gap-2{
@@ -979,12 +940,6 @@ video {
   outline-offset: 2px;
 }
 
-@media (min-width: 640px){
-  .sm\:mt-9{
-    margin-top: 2.25rem;
-  }
-}
-
 @media (min-width: 768px){
   .md\:m-auto{
     margin: auto;
@@ -998,19 +953,6 @@ video {
   .md\:my-0{
     margin-top: 0px;
     margin-bottom: 0px;
-  }
-
-  .md\:mx-0{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .md\:mt-8{
-    margin-top: 2rem;
-  }
-
-  .md\:mt-9{
-    margin-top: 2.25rem;
   }
 
   .md\:flex{
