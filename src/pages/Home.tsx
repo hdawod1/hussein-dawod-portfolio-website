@@ -1,10 +1,6 @@
 import React from 'react'
 import profilePicture from '../images/ProfilePicture.jpeg'
 
-// interface Props {
-//     ref: LegacyRef<HTMLDivElement> | undefined
-// }
-
 const Home: React.FC = () => {
     return (
         <div id='home' data-name="home" className='h-auto p-3 lg:flex lg:items-center lg:justify-around text-center lg:text-left flex-grow'>
