@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className='md:w-[50%] md:mx-3 md:my-0 my-7 bg-slate-100 shadow-xl rounded-xl h-full'>
+                <div className='md:w-[50%] md:mx-3 md:my-0 my-7 bg-slate-100 shadow-xl rounded-xl h-auto'>
                     <img src={todoList} className='rounded-t-xl w-auto h-auto' />
                     <div className='text-left p-7'>
                         <h4 className='text-xl lg:text-3xl font-medium'>Todo List</h4>
