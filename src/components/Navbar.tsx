@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="lg:hidden mx-4 h-6 w-6 cursor-pointer mb-8" onClick={toggleMenu}>
+                <div className="lg:hidden mx-4 h-6 w-6 cursor-pointer relative bottom-3" onClick={toggleMenu}>
                     <Hamburger />
                 </div>
             </div>
