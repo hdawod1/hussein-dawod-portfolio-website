@@ -7,7 +7,7 @@ const Home: React.FC = () => {
             <div className='lg:w-[600px] w-auto'>
                 <div className='text-left lg:mr-0'>
                     <h1 className='text-[2.7rem] text-[#42446E] font-bold'>About Me</h1>
-                    <p className='text-lg text-[#666666] font-normal'>I'm a Front-End React Developer working with JavaScript, TypeScript, React.js and Redux.js. Explore my projects, including a user-friendly Mock GPT-4 info site and a todo list app, showcasing my implementation of React TypeScript development. I'm passionate about creating engaging user experiences and eager to contribute to your organization's progression. Let's connect and discuss how I can add value to your team.</p>
+                    <p className='text-lg text-[#666666] font-normal'>I am a React Developer working with JavaScript, TypeScript, ReactJS, ReduxJS, NodeJS, ExpressJS, MongoDB, and Mongoose. My portfolio includes projects such as a user-friendly Mock GPT-4 info site and a todo list app, which demonstrate my proficiency in React TypeScript development. Additionally, I have created a Full Stack EJS Task Manager, showcasing Back-End development using Node, Express, MongoDB, and Mongoose. I am passionate about creating engaging user experiences and am excited to contribute to your organization's growth. Let's connect and discuss how I can bring value to your team.</p>
                 </div>
                 <div>
                     <h1 className='text-[2.7rem] text-[#42446E] font-bold text-left'>Experience</h1>
@@ -26,9 +26,9 @@ const Home: React.FC = () => {
                             
                         </div>
                         <ul className='text-left ml-4 lg:ml-7 list-disc text-xs'>
-                            <li className='break-all'>Independently developed skills in JavaScript, React, TypeScript, Redux, and Tailwind CSS</li>
-                            <li className='break-all'>Recent projects include a user-friendly Mock GPT-4 info site and a Redux Toolkit-powered todo list app</li>
-                            <li className=''>Demonstrated commitment to continuous learning, staying updated with industry trends, and ready to contribute expertise to front-end development opportunities</li>
+                            <li className='break-all'>Independently developed skills in JavaScript, React, TypeScript, Redux, Tailwind CSS, NodeJS, ExpressJS, MongoDB and Mongoose</li>
+                            <li className='break-all'>Recent projects include a user-friendly Mock GPT-4 info site, a Redux Toolkit-powered todo list app and an EJS Task Manager</li>
+                            <li className=''>Demonstrated commitment to continuous learning, staying updated with industry trends, and ready to contribute expertise to web development opportunities</li>
                         </ul>
                     </div>
                     <div className='mt-3 lg:flex flex-col'>

@@ -534,6 +534,10 @@ video {
   position: relative;
 }
 
+.bottom-3{
+  bottom: 0.75rem;
+}
+
 .right-1{
   right: 0.25rem;
 }
@@ -604,10 +608,6 @@ video {
   margin-top: 0.25rem;
 }
 
-.mt-2{
-  margin-top: 0.5rem;
-}
-
 .mt-3{
   margin-top: 0.75rem;
 }
@@ -658,10 +658,6 @@ video {
 
 .h-auto{
   height: auto;
-}
-
-.h-full{
-  height: 100%;
 }
 
 .max-h-\[500px\]{
@@ -940,6 +936,12 @@ video {
   outline-offset: 2px;
 }
 
+@media (min-width: 640px){
+  .sm\:left-\[4\%\]{
+    left: 4%;
+  }
+}
+
 @media (min-width: 768px){
   .md\:m-auto{
     margin: auto;
@@ -973,16 +975,12 @@ video {
     position: static;
   }
 
-  .lg\:relative{
-    position: relative;
-  }
-
   .lg\:left-6{
     left: 1.5rem;
   }
 
-  .lg\:left-\[80px\]{
-    left: 80px;
+  .lg\:left-\[7\%\]{
+    left: 7%;
   }
 
   .lg\:right-0{
