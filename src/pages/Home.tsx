@@ -7,7 +7,7 @@ const Home: React.FC = () => {
             <div className='lg:w-[600px] w-auto'>
                 <div className='text-left lg:mr-0'>
                     <h1 className='text-[2.7rem] text-[#42446E] font-bold'>About Me</h1>
-                    <p className='text-lg text-[#666666] font-normal'>I am a React Developer working with JavaScript, TypeScript, ReactJS, ReduxJS, NodeJS, ExpressJS, MongoDB, and Mongoose. My portfolio includes projects such as a user-friendly Mock GPT-4 info site and a todo list app, which demonstrate my proficiency in React TypeScript development. Additionally, I have created a Full Stack EJS Task Manager, showcasing Back-End development using Node, Express, MongoDB, and Mongoose. I am passionate about creating engaging user experiences and am excited to contribute to your organization's growth. Let's connect and discuss how I can bring value to your team.</p>
+                    <p className='text-lg text-[#666666] font-normal'>I am a React Developer working with JavaScript, TypeScript, ReactJS, ReduxJS, NodeJS, ExpressJS, MongoDB, and Mongoose. My portfolio includes projects such as a user-friendly Mock GPT-4 info site and a todo list app, which demonstrate my proficiency in React TypeScript development. Additionally, I have created a Full Stack EJS Task Manager, showcasing Back-End development using Node, Express, MongoDB, and Mongoose. I am committed to creating engaging user experiences and excited about the opportunity to contribute to your organization's growth. Let's connect and discuss how I can bring value to your team.</p>
                 </div>
                 <div>
                     <h1 className='text-[2.7rem] text-[#42446E] font-bold text-left'>Experience</h1>
