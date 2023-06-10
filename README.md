@@ -1,6 +1,6 @@
 # Hussein Dawod Portfolio Website
  
-
+## Directory Structure
 ```
 hussein-dawod-portfolio-website
 ├─ .eslintrc.cjs
