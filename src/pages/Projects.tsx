@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
                         <h4 className='text-xl lg:text-3xl font-medium'>Mock GPT-4 Info</h4>
                         <p className='text-md lg:text-lg font-light my-3'>Built a user-friendly front-end mock GPT-4 info site using ReactJS, TypeScript, and Redux Toolkit. Implemented efficient state management with Redux Toolkit for client-side signup. Leveraged React Router for navigation and utilized Tailwind CSS for modern styling.</p>
                             <p className='font-normal text-sm lg:text-base inline'>Tech Stack:</p> 
-                            <p className='font-light text-xs lg:text-sm inline'> Javascript, TypeSript, ReactJS, ReduxJS, Tailwind CSS</p>
+                            <p className='font-light text-xs lg:text-sm inline'> JavaScript, TypeScript, ReactJS, ReduxJS, Tailwind CSS</p>
                         <div className='flex justify-between mt-3'>
                             <span className='flex items-center'>
                                 <a href="https://mock-gpt-4.onrender.com/" target="_blank"> <AiOutlineLink /> </a>
@@ -34,9 +34,9 @@ const Projects: React.FC = () => {
                     <img src={todoList} className='rounded-t-xl w-auto h-auto' />
                     <div className='text-left p-7'>
                         <h4 className='text-xl lg:text-3xl font-medium'>Todo List</h4>
-                        <p className='text-md lg:text-lg font-light my-3'>Developed a Todo List application using React, TypeScript, Tailwind CSS, and Redux Toolkit. The project involved enabling client-side CRUD operations and implementing a responsive design.</p>
+                        <p className='text-md lg:text-lg font-light my-3'>Developed a Todo List application using ReactJS, TypeScript, Tailwind CSS, and Redux Toolkit. The project involved enabling client-side CRUD operations and implementing a responsive design.</p>
                             <p className='font-normal text-sm lg:text-base inline'>Tech Stack:</p> 
-                            <p className='font-light text-xs lg:text-sm inline'> Javascript, TypeSript, ReactJS, ReduxJS, Tailwind CSS</p>
+                            <p className='font-light text-xs lg:text-sm inline'> JavaScript, TypeScript, ReactJS, ReduxJS, Tailwind CSS</p>
                         <div className='flex justify-between mt-4'>
                             <span className='flex items-center'>
                                 <a href="https://todo-list-ruhf.onrender.com/" target="_blank"> <AiOutlineLink /> </a>
@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
                         <h4 className='text-xl lg:text-3xl font-medium'>EJS Task Manager</h4>
                         <p className='text-md lg:text-lg font-light my-3'>Developed a task management app using EJS, NodeJS, ExpressJS, MongoDB, and Mongoose. Allows users to easily create, read, and delete tasks. Implemented secure user authentication and password encryption. User-friendly designed interface with database integration.</p>
                             <p className='font-normal text-sm lg:text-base inline'>Tech Stack:</p> 
-                            <p className='font-light text-xs lg:text-sm inline'> EJS, Javascript, NodeJS, ExpressJS, MongoDB, Mongoose</p>
+                            <p className='font-light text-xs lg:text-sm inline'> EJS, JavaScript, NodeJS, ExpressJS, MongoDB, Mongoose</p>
                         <div className='flex flex-col items-center mt-4'>
                             <span className='flex items-center'>
                                 <a href="https://github.com/hdawod1/ejs-task-manager" target="_blank"><BsGithub /></a>
