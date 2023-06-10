@@ -1,4 +1,4 @@
-# hussein-dawod-portfolio-site
+# Hussein Dawod Portfolio Website
  
 
 ```
@@ -323,3 +323,9 @@ hussein-dawod-portfolio-website
 └─ vite.config.ts
 
 ```
+
+## How to run locally
+   1. Download the zip file and extract the contents
+   2. Open cmd (Command Prompt) or an IDE Terminal and type `cd` and the directory path of the root project seperated by a space and hit enter
+   3. Run `npm install` to install all dependencies
+   4. Run `npm run dev` to start the application locally
