@@ -588,6 +588,10 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.mb-\[-6px\]{
+  margin-bottom: -6px;
+}
+
 .ml-1{
   margin-left: 0.25rem;
 }
@@ -646,6 +650,10 @@ video {
 
 .hidden{
   display: none;
+}
+
+.h-5{
+  height: 1.25rem;
 }
 
 .h-6{
@@ -1121,5 +1129,9 @@ video {
   .lg\:hover\:text-gray-500:hover{
     --tw-text-opacity: 1;
     color: rgb(107 114 128 / var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:opacity-70:hover{
+    opacity: 0.7;
   }
 }
