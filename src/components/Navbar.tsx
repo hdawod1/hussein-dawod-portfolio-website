@@ -4,6 +4,7 @@ import { Link as ScrollLink } from "react-scroll"
 import * as Scroll from "react-scroll"
 import Hamburger from 'hamburger-react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import resumeIcon from '../images/resume-icon.png'
 
 const Navbar: React.FC = () => {
     const [open, setOpen] = useState<boolean>(false)
@@ -54,6 +55,11 @@ const Navbar: React.FC = () => {
                             <li className="inline-block text-black lg:inline-block lg:hover:text-gray-500 px-4 py-2">
                                 <a href="https://www.linkedin.com/in/hussein-dawod-63206418b/" target="_blank" rel="noopener noreferrer">
                                     <BsLinkedin className="inline-block align-middle" />
+                                </a>
+                            </li>
+			    <li className="inline-block text-black lg:inline-block mb-[-6px] mx-3">
+                                <a href="https://drive.google.com/file/d/1U97r02az3breJt-YANUxe81EEKUEadtq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <img src={resumeIcon} alt="" className='h-5 lg:hover:opacity-70' />
                                 </a>
                             </li>
                         </ul>
