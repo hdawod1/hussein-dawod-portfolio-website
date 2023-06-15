@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
                     <img src={todoList} className='rounded-t-xl w-auto h-auto' />
                     <div className='text-left p-7'>
                         <h4 className='text-xl lg:text-3xl font-medium'>Todo List</h4>
-                        <p className='text-md lg:text-lg font-light my-3'>Developed a Todo List application using ReactJS, TypeScript, Tailwind CSS, and Redux Toolkit. The project involved enabling client-side CRUD operations and implementing a responsive design.</p>
+                        <p className='text-md lg:text-lg font-light my-3'>Developed a Todo List application using ReactJS, TypeScript, Tailwind CSS, and Redux Toolkit. Involves client-side CRUD operations and implementing a responsive design.</p>
                             <p className='font-normal text-sm lg:text-base inline'>Tech Stack:</p> 
                             <p className='font-light text-xs lg:text-sm inline'> JavaScript, TypeScript, ReactJS, ReduxJS, Tailwind CSS</p>
                         <div className='flex justify-between mt-4'>
