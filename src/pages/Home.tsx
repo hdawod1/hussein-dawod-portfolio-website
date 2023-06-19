@@ -14,7 +14,7 @@ const Home: React.FC = () => {
                     <div>
                         <div className='lg:flex lg:items-center lg:justify-between'>
                             <div>
-                                <p className='text-xl text-[#666666] text-left lg:mr-0'>Professional Development</p>
+                                <p className='text-xl text-[#666666] text-left lg:mr-0'>Gap Year</p>
                                 <div className='flex text-xs text-[#A7A7A7]'>
                                     <p>Career Break</p>
                                     <p className='ml-3 lg:ml-8'>Ottawa, ON</p>
