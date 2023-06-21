@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
                                 </a>
                             </li>
 			    <li className="inline-block text-black lg:inline-block mb-[-6px] mx-3">
-                                <a href="https://drive.google.com/file/d/1dQ0jMgJYEh9H29vIFaC3gsQfEs2fGbvu/view" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/1SxHMzYTkFtBg1AOgAgzLiz1Q5OuMOT5Y/view" target="_blank" rel="noopener noreferrer">
                                     <img src={resumeIcon} alt="" className='h-5 lg:hover:opacity-70' />
                                 </a>
                             </li>
