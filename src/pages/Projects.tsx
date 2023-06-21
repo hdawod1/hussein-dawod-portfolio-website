@@ -49,21 +49,6 @@ const Projects: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className='md:w-[50%] md:mx-3 md:my-0 my-7 bg-slate-100 shadow-xl rounded-xl h-auto'>
-                    <img src={ejsTaskManager} className='rounded-t-xl w-auto h-auto' />
-                    <div className='text-left p-7'>
-                        <h4 className='text-xl lg:text-3xl font-medium'>EJS Task Manager</h4>
-                        <p className='text-md lg:text-lg font-light my-3'>Developed a task management app using EJS, NodeJS, ExpressJS, MongoDB, and Mongoose. Allows users to easily create, read, and delete tasks. Implemented secure user authentication and password encryption. User-friendly designed interface with database integration.</p>
-                            <p className='font-normal text-sm lg:text-base inline'>Tech Stack:</p> 
-                            <p className='font-light text-xs lg:text-sm inline'> EJS, JavaScript, NodeJS, ExpressJS, MongoDB, Mongoose</p>
-                        <div className='flex flex-col items-center mt-4'>
-                            <span className='flex items-center'>
-                                <a href="https://github.com/hdawod1/ejs-task-manager" target="_blank"><BsGithub /></a>
-                                <a href="https://github.com/hdawod1/ejs-task-manager" target="_blank" className='ml-1 lg:ml-2 text-sm lg:text-base underline'>View Code</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     )

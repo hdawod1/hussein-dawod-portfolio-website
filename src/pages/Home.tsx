@@ -7,7 +7,7 @@ const Home: React.FC = () => {
             <div className='lg:w-[600px] w-auto'>
                 <div className='text-left lg:mr-0'>
                     <h1 className='text-[2.7rem] text-[#42446E] font-bold'>About Me</h1>
-                    <p className='text-lg text-[#666666] font-normal'>I am a React Developer working with JavaScript, TypeScript, ReactJS, ReduxJS, NodeJS, ExpressJS, MongoDB, and Mongoose. My portfolio includes projects such as a user-friendly Mock GPT-4 info site and a todo list app, which demonstrate my proficiency in React TypeScript development. Additionally, I have created a Full Stack EJS Task Manager, showcasing Back-End development using NodeJS, ExpressJS, MongoDB, and Mongoose. I am passionate about creating engaging user experiences and am excited to contribute to your organization's growth. Let's connect and discuss how I can bring value to your team.</p>
+                    <p className='text-lg text-[#666666] font-normal'>I am a React Developer working with JavaScript, TypeScript, ReactJS and ReduxJS. My portfolio includes projects such as a user-friendly Mock GPT-4 info site and a todo list app, which demonstrate my proficiency in React TypeScript development. I am passionate about creating engaging user experiences and am excited to contribute to your organization's growth. Let's connect and discuss how I can bring value to your team.</p>
                 </div>
                 <div>
                     <h1 className='text-[2.7rem] text-[#42446E] font-bold text-left'>Experience</h1>
@@ -26,8 +26,8 @@ const Home: React.FC = () => {
                             
                         </div>
                         <ul className='text-left ml-4 lg:ml-7 list-disc text-xs'>
-                            <li className='break-all'>Independently developed skills in JavaScript, TypeScript, ReactJS, ReduxJS, Tailwind CSS, NodeJS, ExpressJS, MongoDB and Mongoose</li>
-                            <li className='break-all'>Recent projects include a user-friendly Mock GPT-4 info site, a Redux Toolkit implemented todo list app and an EJS Task Manager</li>
+                            <li className='break-all'>Independently developed skills in JavaScript, TypeScript, ReactJS and ReduxJS</li>
+                            <li className='break-all'>Recent projects include a user-friendly Mock GPT-4 info site and a Redux Toolkit implemented todo list app</li>
                         </ul>
                     </div>
                 </div>
