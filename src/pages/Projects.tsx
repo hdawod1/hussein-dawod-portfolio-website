@@ -1,7 +1,6 @@
 import React from 'react'
 import mockGPT4Info from '../images/projects/mock-gpt-4-info-home-page.png'
 import todoList from '../images/projects/todo-list-site.png'
-import ejsTaskManager from '../images/projects/ejs-task-manager.png'
 import { BsGithub } from 'react-icons/bs'
 import { AiOutlineLink } from 'react-icons/ai'
 
