@@ -5,6 +5,7 @@ import * as Scroll from "react-scroll"
 import Hamburger from 'hamburger-react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import resumeIcon from '../images/resume-icon.png'
+import profilePicture from '../images/ProfilePicture.jpeg'
 
 const Navbar: React.FC = () => {
     const [open, setOpen] = useState<boolean>(false)
@@ -31,7 +32,10 @@ const Navbar: React.FC = () => {
             <ScrollLink to="projects" spy={true} smooth={true} offset={-75} duration={500} />
             <ScrollLink to="contact" spy={true} smooth={true} offset={-75} duration={500} />
             <div className='flex items-center justify-between lg:mx-auto p-7 bg-slate-100'>
-                <button className='font-medium' onClick={() => goToPageAndScroll("home")}>Hussein Dawod</button>
+                <div className="flex items-center">
+                    <button className='font-medium' onClick={() => goToPageAndScroll("home")}>Hussein Dawod</button>
+                    <img src={profilePicture} className='mx-3 h-[50px] w-[50px] rounded-full border-cyan-400 border-2' />
+                </div>
                 <div className={`${open ? 'flex justify-end' : 'hidden'} lg:flex lg:items-center lg:w-auto w-full`}>
                     <div className='nav-items text-sm'>
                         <ul>
@@ -57,15 +61,15 @@ const Navbar: React.FC = () => {
                                     <BsLinkedin className="inline-block align-middle" />
                                 </a>
                             </li>
-			    <li className="inline-block text-black lg:inline-block mb-[-6px] mx-3">
-                                <a href="https://drive.google.com/file/d/1SxHMzYTkFtBg1AOgAgzLiz1Q5OuMOT5Y/view" target="_blank" rel="noopener noreferrer">
+                            <li className="inline-block text-black lg:inline-block mb-[-6px] mx-3">
+                                <a href="https://drive.google.com/file/d/1uVVC9hpjSML2oWFnArWXvqAnKUL-Kj4-/view" target="_blank" rel="noopener noreferrer">
                                     <img src={resumeIcon} alt="" className='h-5 lg:hover:opacity-70' />
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div className="lg:hidden mx-4 h-6 w-6 cursor-pointer relative bottom-3" onClick={toggleMenu}>
+                <div className="lg:hidden mx-4 h-6 w-6 cursor-pointer mb-6" onClick={toggleMenu}>
                     <Hamburger />
                 </div>
             </div>

@@ -11,23 +11,25 @@ const Home: React.FC = () => {
                 </div>
                 <div>
                     <h1 className='text-[2.7rem] text-[#42446E] font-bold text-left'>Experience</h1>
-                    <div>
-                        <div className='lg:flex lg:items-center lg:justify-between'>
+                    <div className='mt-3 lg:flex flex-col'>
+                        <div className='lg:flex justify-between'>
                             <div>
-                                <p className='text-xl text-[#666666] text-left lg:mr-0'>Gap Year</p>
+                                <p className='text-xl text-[#666666] text-left'>Research and Technology Assistant</p>
                                 <div className='flex text-xs text-[#A7A7A7]'>
-                                    <p>Career Break</p>
+                                    <p>Ericsson Canada Inc</p>
                                     <p className='ml-3 lg:ml-8'>Ottawa, ON</p>
                                 </div>
                             </div>
-                            <div className='text-xs'>
-                                <p className='text-[#A7A7A7] mt-1 text-left lg:mr-0'>Oct 2022 - Present</p>
+                            <div className='lg:ml-8 text-xs lg:mb-3 lg:my-0 my-3='>
+                                <div className='bg-[#D7FFE0] w-fit mr-auto p-2 relative right-1 lg:left-6 lg:ml-auto lg:p-[12px] rounded-[100px]'>
+                                    <p className=' lg:text-right text-[#018C0F]'>Co-op</p>
+                                </div>
+                                <p className='text-[#A7A7A7] mt-1 text-left'>Feb 2018 - June 2018</p>
                             </div>
-                            
                         </div>
                         <ul className='text-left ml-4 lg:ml-7 list-disc text-xs'>
-                            <li className='break-all'>Independently developed skills in JavaScript, TypeScript, ReactJS and ReduxJS</li>
-                            <li className='break-all'>Recent projects include a user-friendly Mock GPT-4 info site and a Redux Toolkit implemented todo list app</li>
+                            <li>Contributed to administrative tasks using Microsoft Office Tools, as well as updating the Ericsson SharePoint Website</li>
+                            <li>Updated library book records assisting in a relocation project by cataloging and physically relocating books within the building</li>
                         </ul>
                     </div>
                 </div>
@@ -38,14 +40,14 @@ const Home: React.FC = () => {
                             <p className='text-xl text-[#666666] text-left'>Algonquin College</p>
                             <p className='text-left text-sm text-[#A7A7A7]'>Web Development and Internet Applications</p>
                         </div>
-                        <p className='lg:mx-4 mt-3 text-left lg:mt-0 text-xs text-[#A7A7A7]'>Sep 2019 - April 2022</p>
+                        <p className='lg:mx-4 mt-3 text-left lg:mt-0 text-xs text-[#A7A7A7]'>Sep 2019 - Present</p>
                     </div>
                     <div className='my-3 lg:flex justify-center lg:items-start lg:justify-between'>
                         <div>
                             <p className='text-xl text-[#666666] text-left'>AY Jackson Secondary School</p>
                             <p className='text-left text-sm text-[#A7A7A7]'>High School Diploma (OSSD)</p>
                         </div>
-                        <p className='lg:mx-4 mt-3 text-left lg:mt-0 lg:mx-0 text-xs text-[#A7A7A7]'>Sep 2015 - June 2019</p>
+                        <p className='lg:mx-4 mt-3 text-left lg:mt-0 text-xs text-[#A7A7A7]'>Sep 2015 - June 2019</p>
                     </div>
                 </div>
             </div>  
