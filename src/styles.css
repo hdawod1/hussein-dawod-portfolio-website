@@ -534,8 +534,8 @@ video {
   position: relative;
 }
 
-.bottom-3{
-  bottom: 0.75rem;
+.right-1{
+  right: 0.25rem;
 }
 
 .right-6{
@@ -584,6 +584,10 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .mb-\[-6px\]{
   margin-bottom: -6px;
 }
@@ -598,6 +602,10 @@ video {
 
 .ml-4{
   margin-left: 1rem;
+}
+
+.mr-auto{
+  margin-right: auto;
 }
 
 .mt-1{
@@ -656,6 +664,10 @@ video {
   height: 150px;
 }
 
+.h-\[50px\]{
+  height: 50px;
+}
+
 .h-auto{
   height: auto;
 }
@@ -680,12 +692,21 @@ video {
   width: 150px;
 }
 
+.w-\[50px\]{
+  width: 50px;
+}
+
 .w-\[75px\]{
   width: 75px;
 }
 
 .w-auto{
   width: auto;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .w-full{
@@ -736,8 +757,8 @@ video {
   gap: 0.5rem;
 }
 
-.break-all{
-  word-break: break-all;
+.rounded-\[100px\]{
+  border-radius: 100px;
 }
 
 .rounded-full{
@@ -753,6 +774,10 @@ video {
   border-top-right-radius: 0.75rem;
 }
 
+.border-2{
+  border-width: 2px;
+}
+
 .border-4{
   border-width: 4px;
 }
@@ -762,9 +787,18 @@ video {
   border-color: rgb(34 211 238 / var(--tw-border-opacity));
 }
 
+.bg-\[\#D7FFE0\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(215 255 224 / var(--tw-bg-opacity));
+}
+
 .bg-slate-100{
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.p-2{
+  padding: 0.5rem;
 }
 
 .p-3{
@@ -854,6 +888,11 @@ video {
 
 .font-normal{
   font-weight: 400;
+}
+
+.text-\[\#018C0F\]{
+  --tw-text-opacity: 1;
+  color: rgb(1 140 15 / var(--tw-text-opacity));
 }
 
 .text-\[\#42446E\]{
@@ -952,6 +991,10 @@ video {
     position: static;
   }
 
+  .lg\:left-6{
+    left: 1.5rem;
+  }
+
   .lg\:left-\[7\%\]{
     left: 7%;
   }
@@ -968,11 +1011,6 @@ video {
     margin: 0px;
   }
 
-  .lg\:mx-0{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .lg\:mx-4{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -981,6 +1019,15 @@ video {
   .lg\:mx-auto{
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .lg\:my-0{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .lg\:mb-3{
+    margin-bottom: 0.75rem;
   }
 
   .lg\:ml-2{
@@ -993,6 +1040,10 @@ video {
 
   .lg\:ml-8{
     margin-left: 2rem;
+  }
+
+  .lg\:ml-auto{
+    margin-left: auto;
   }
 
   .lg\:mr-0{
@@ -1055,8 +1106,16 @@ video {
     border-width: 8px;
   }
 
+  .lg\:p-\[12px\]{
+    padding: 12px;
+  }
+
   .lg\:text-left{
     text-align: left;
+  }
+
+  .lg\:text-right{
+    text-align: right;
   }
 
   .lg\:text-3xl{
