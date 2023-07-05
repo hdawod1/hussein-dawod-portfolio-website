@@ -534,6 +534,14 @@ video {
   position: relative;
 }
 
+.bottom-6{
+  bottom: 1.5rem;
+}
+
+.bottom-7{
+  bottom: 1.75rem;
+}
+
 .right-1{
   right: 0.25rem;
 }
@@ -552,6 +560,11 @@ video {
 
 .m-auto{
   margin: auto;
+}
+
+.mx-1{
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mx-3{
@@ -686,6 +699,10 @@ video {
 
 .w-\[106px\]{
   width: 106px;
+}
+
+.w-\[120px\]{
+  width: 120px;
 }
 
 .w-\[150px\]{
@@ -1009,6 +1026,11 @@ video {
 
   .lg\:m-0{
     margin: 0px;
+  }
+
+  .lg\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .lg\:mx-4{

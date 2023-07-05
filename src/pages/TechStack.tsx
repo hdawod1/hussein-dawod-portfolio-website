@@ -9,12 +9,13 @@ import reduxLogo from '../images/techStack/redux-logo.png'
 import GitHubLogo from '../images/techStack/github-logo.png'
 import vscodeLogo from '../images/techStack/vscode-logo.png'
 import figmaLogo from '../images/techStack/figma-logo.png'
+import microsoftOfficeLogo from '../images/techStack/microsoft-office-logo.png'
+import sharepointLogo from '../images/techStack/sharepoint-logo.png'
 
 const TechStack: React.FC = () => {
     return (
         <div id='tech-stack' data-techstack='tech-stack' className='text-center p-4 mt-8'>
-            <h1 className='text-5xl text-[#42446E] font-bold'>My Tech Stack</h1>
-            <p className='mt-3 text-2xl'> Technologies I've been working with recently</p>
+            <h1 className='text-5xl text-[#42446E] font-bold'>Technologies Used</h1>
             <div className='grid grid-cols-5 m-5 lg:mt-3 gap-2 relative sm:left-[4%] lg:left-[7%]'>
                 <img src={html5Logo} alt="" />
                 <img src={css3Logo} alt="" />
@@ -26,6 +27,8 @@ const TechStack: React.FC = () => {
                 <img src={GitHubLogo} className='w-[106px]' alt="" />
                 <img src={vscodeLogo} className='w-[106px]' alt="" />
                 <img src={figmaLogo} className='w-[75px]'  alt="" />
+                <img src={microsoftOfficeLogo} className='w-[106px] lg:static relative bottom-7'  alt="" />
+                <img src={sharepointLogo} className='w-[120px] lg:mx-0 mx-1 lg:static relative bottom-6'  alt="" />
             </div>
         </div>
     )
